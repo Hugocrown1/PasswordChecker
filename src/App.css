@@ -1,0 +1,56 @@
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.password-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.password-input {
+  padding: 10px;
+  font-size: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.result-container {
+  padding: 20px;
+  color: white;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  width: 50%;
+  max-width: 400px;
+}
+
+.password-length,
+.password-complexity,
+.password-result,
+.password-status {
+  margin: 10px 0;
+}
+
+.green {
+  background-color: green;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.red {
+  background-color: red;
+}
